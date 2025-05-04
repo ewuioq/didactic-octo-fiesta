@@ -1,0 +1,56 @@
+
+# 忽略系统文件
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# 忽略日志文件
+*.log
+logs/
+runtime/
+
+# 忽略 IDE / 编辑器配置
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# 忽略 PHPStorm 相关文件
+*.iml
+*.iws
+*.ipr
+out/
+
+# 忽略 Composer 依赖（如未加入版本控制）
+vendor/
+
+# 忽略 node_modules（若有前端构建）
+node_modules/
+dist/
+build/
+
+# 忽略上传的临时文件、缓存
+*.swp
+*.bak
+*.tmp
+*.cache
+.cache/
+*.pid
+
+# 忽略 ZIP 和打包文件
+*.zip
+*.tar.gz
+*.rar
+
+# 忽略数据库备份文件
+*.sql
+*.sqlite
+
+# 忽略隐藏文件备份
+*~
+*.old
+*.orig
+
+# 忽略 OS 中文件（Mac）
+ehthumbs.db
+Icon?
